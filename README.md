@@ -17,7 +17,7 @@ A Phishing website (fack facebook login page) and DNS spoofing demo
 #### ![image](img/victim_config1.png)
 - External network (ip address: 10.0.2.15)
 #### ![image](img/victim_config2.png)
-### Conection Test 
+### Connection Test 
 - Two VMs can connect to each other (attacker pings victim)
 #### ![image](img/ping.png)
 - The victim can connect to real facebook login site 
