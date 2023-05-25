@@ -76,9 +76,9 @@ ping facebook.com
 
 ### Demo 
 - attack one victim
-### [![Watch the video](img/fb.png)](https://youtu.be/MtasTwbpGYw)
+### [![Watch the video](https://pixabay.com/images/download/vector-video-player-941434_1280.png)](https://youtu.be/MtasTwbpGYw)
 - attack two victims
-### [![Watch the video](img/fb.png)](https://youtu.be/0tiLnDpQlVQ)
+### [![Watch the video](https://pixabay.com/images/download/vector-video-player-941434_1280.png)](https://youtu.be/0tiLnDpQlVQ)
 
 
 ## Reference
