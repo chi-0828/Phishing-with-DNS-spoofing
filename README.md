@@ -76,7 +76,7 @@ ping facebook.com
 
 ### Demo 
 - attack one victim
-https://github.com/chi-0828/Phishing-with-DNS-spoofing/assets/73067915/606c9f47-3281-4a93-8a7b-bf62af1854bc
+[![Watch the video]](https://youtu.be/0tiLnDpQlVQ
 - attack two victims
 https://github.com/chi-0828/Phishing-with-DNS-spoofing/assets/73067915/28c94978-7d51-44be-b2d6-d5904f4eecf8
 
