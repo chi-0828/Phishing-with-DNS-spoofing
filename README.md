@@ -76,15 +76,10 @@ ping facebook.com
 
 ### Demo 
 - attack one victim
-<br>
-<video width="640"  controls>
-  <source src="demo/1.mp4" type="video/mp4">
-</video>
+https://github.com/chi-0828/Phishing-with-DNS-spoofing/assets/73067915/606c9f47-3281-4a93-8a7b-bf62af1854bc
 - attack two victims
-<br>
-<video width="640"  controls>
-  <source src="demo/2.mp4" type="video/mp4">
-</video>
+https://github.com/chi-0828/Phishing-with-DNS-spoofing/assets/73067915/28c94978-7d51-44be-b2d6-d5904f4eecf8
+
 
 ## Reference
 - https://www.youtube.com/watch?v=4i7kc8cY654
