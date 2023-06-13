@@ -1,14 +1,14 @@
 # Phishing-with-DNS-spoofing
-A Phishing website (fack facebook login page) and DNS spoofing demo
+A Phishing website (fack Facebook login page) and DNS spoofing demo
 ## Environment
 - [x] Virtual box (NAT network is required)
 - [x] Host VM x 2 (or more)
-- [x] Attacker amd victim both connect to NAT network
-- [X] A fack facebook login page
+- [x] Attacker and victim both connect to the NAT network
+- [X] A fack Facebook login page
 
 ## Setup
 ### Attacker 
-- OS: Ubuntu 22.04 (kali and others that can use ettercap are accepted)
+- OS: Ubuntu 22.04 (Kali and others that can use ettercap are accepted)
 - NAT network (ip address: 10.0.2.4)
 
 ### Victim 
@@ -34,9 +34,9 @@ service apache2 start
 tail -f /var/www/html/data/usernames.txt    
 ```
 ### Open browser 
-- the attacker can test by access 127.0.0.1 on browser
+- the attacker can test by accessing 127.0.0.1 on the browser
 #### ![image](img/fb.png)
-- the victim can also connect to real facebook login site (access 10.0.2.4 on browser)
+- the victim can also connect to a real Facebook login site (access 10.0.2.4 on the browser)
 
 ### ettercap's configurations
 ```bash=
@@ -57,7 +57,7 @@ ettercap -G
 ```
 - stop unified sniffing 
 - scan the hosts
-- add the vicitms' ip address to target 1
+- add the victims' ip address to target 1
 - start MITM attacks: ARP poisoning
 - enable dns_spoof plugin
 #### ![image](img/DNS.png)
@@ -70,15 +70,13 @@ nslookup facebook.com
 ping facebook.com
 ```
 - the ip address of facebook.com becomes 10.0.2.4
-- open browser in private mode and access facebook.com
+- open the browser in private mode and access facebook.com
 - login!
-- the account and password are show on ettercap and usernames.txt 
+- the account and password are shown on ettercap and usernames.txt 
 
 ### Demo 
-- attack one victim
-### [![Watch the video](https://play-lh.googleusercontent.com/oB12-6RptJzx0x4fwhQr7CvhlTUSTdU2T9nczVHA9tIqzoOqayWz8mYM74ywoUYjIEo)](https://youtu.be/MtasTwbpGYw)
-- attack two victims
-### [![Watch the video](https://play-lh.googleusercontent.com/oB12-6RptJzx0x4fwhQr7CvhlTUSTdU2T9nczVHA9tIqzoOqayWz8mYM74ywoUYjIEo)](https://youtu.be/0tiLnDpQlVQ)
+- [attack one victim](https://youtu.be/MtasTwbpGYw)
+- [attack two victims](https://youtu.be/0tiLnDpQlVQ)
 
 
 ## Reference
